@@ -1,0 +1,110 @@
+/* General body and text styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* About page container */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    gap: 40px;
+}
+
+/* About image section */
+.about-image {
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* About content styles */
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    color: #292c4b;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Mission and vision sections */
+.about-mission-vision {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-mission h2, 
+.about-vision h2 {
+    font-size: 1.8rem;
+    color: #204c35;
+    margin-bottom: 10px;
+}
+
+.about-mission p, 
+.about-vision p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Core values section */
+.about-values {
+    background-color: #292c4b;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.about-values h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.about-values p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 900px;
+    color: #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 20px;
+    }
+
+    .about-image img {
+        max-width: 100%;
+    }
+
+    .about-values {
+        padding: 30px;
+    }
+}
